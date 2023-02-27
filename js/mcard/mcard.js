@@ -413,7 +413,7 @@ $(document).ready(function (e) {
     $("div.flowergift .templatearea img").css("height", 224 * ratio + "px");
     $("div.flowergift .templatearea img").css("width", 800 * ratio + "px");
 
-    Kakao.init('94a08cfa99972d4a71c99401069b1311');
+    Kakao.init('450abf675836b40795720cd6cde5f044');
     var addressDetail = $("#addressDetail").text();
 
     if (InvitationId == "195827") {
