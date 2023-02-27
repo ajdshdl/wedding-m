@@ -889,15 +889,15 @@
 
         var host = "https://www.barunsonmcard.com";
 
-        $.ajax({
-            type: "POST",
-            url: "/Member/Invitation_Display_Chk/" + InvitationId,
-            async: false,
-            success: function (result) {
+//         $.ajax({
+//             type: "POST",
+//             url: "/Member/Invitation_Display_Chk/" + InvitationId,
+//             async: false,
+//             success: function (result) {
 
-                Invitation_Display_YN = result;
-            }
-        });
+//                 Invitation_Display_YN = result;
+//             }
+//         });
 
         var isEmpty = function (val) {
             if (val === "" || val === null || val === undefined
